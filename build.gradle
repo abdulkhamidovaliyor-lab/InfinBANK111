@@ -19,7 +19,8 @@ android {
             manifest.srcFile 'AndroidManifest.xml'
             java.srcDirs = ['.']
             res.srcDirs = ['res']
-            assets.srcDirs = ['.']
+
+            assets.srcDirs = ['assets']
         }
     }
 }
